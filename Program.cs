@@ -7,7 +7,7 @@ builder.Services.AddCors(options =>
     options.AddPolicy(name: MyAllowSpecificOrigins,
                       builder =>
                       {
-                          builder.WithOrigins("https://localhost:44445");
+                          builder.WithOrigins("http://localhost:3000", "https://appvediai.netlify.app");
                       });
 });
 
