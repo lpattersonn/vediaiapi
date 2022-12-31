@@ -5,7 +5,7 @@ using Microsoft.AspNetCore.Mvc;
 namespace vediaiapi.Controllers;
 
 [ApiController]
-[Route("[controller]")]
+[Route("api/[controller]")]
 public class IntervieweeController : ControllerBase
 {
     public IntervieweeController()
