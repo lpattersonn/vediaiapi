@@ -15,5 +15,7 @@ namespace vediaiapi.Models
 		public string Password { get; set; }
 
 		public string Bio { get; set; }
+
+		public DateTime Date { get; set; }
 	}
 }
