@@ -8,5 +8,6 @@ namespace vediaiapi.Models
        public int interviewee_id { get; set; }
        public int interviewer_id { get; set; }
        public string event_url { get; set; }
+       public DateTime date { get; set; }
     }
 }
