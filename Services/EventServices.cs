@@ -9,8 +9,8 @@ public static class EventService
 
     static EventService()
     {
-        DateTime date1 = new DateTime(2023, 6, 1, 7, 47, 0);
-        DateTime date2 = new DateTime(2023, 7, 1, 8, 47, 0);
+        DateTime date1 = new DateTime(2023, 10, 1, 7, 47, 0);
+        DateTime date2 = new DateTime(2023, 10, 1, 8, 47, 0);
         Events = new List<EventModel>
         {
             new EventModel {Id = 1, interviewee_id = 1, interviewer_id = 1, eventDescription = "Google Interview Prep", event_url = "sdgasgdfsgas", date = date1, eventDuration = 0.3 },
